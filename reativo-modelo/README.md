@@ -1,0 +1,5 @@
+## Agente Reativo Baseado em modelo:
+- Um agente baseado em modelo é um tipo de agente que mantém uma representação interna do ambiente em que está operando. Nesse caso, o agente mantém uma representação do ambiente através da classe Ambiente. Ao contrário de um agente reativo puro, que apenas reage ao ambiente sem manter uma representação interna, um agente baseado em modelo utiliza essa representação para tomar decisões mais informadas. Ele pode simular diferentes ações em seu modelo interno do ambiente e prever as consequências dessas ações antes de realmente executá-las no ambiente real.
+
+- No exemplo fornecido, o agente baseado em modelo é representado pela **classe AgenteReativo**, que recebe uma instância da **classe Ambiente** em seu inicializador. O agente mantém sua posição atual no ambiente (self.posicao) e usa métodos da classe Ambiente para interagir com o ambiente, como escolher a próxima ação (escolher_acao) e executar essa ação (executar_acao). E ele para de executar quando encontrar a posição  do objetivo passado.
+

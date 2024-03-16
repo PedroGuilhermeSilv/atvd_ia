@@ -8,4 +8,4 @@
 - **Limitações de Complexidade:** Devido à sua simplicidade, os agentes reativos simples são adequados apenas para ambientes muito simples e previsíveis. Eles podem ser eficazes em ambientes onde as ações necessárias são óbvias e diretas com base em percepções imediatas
 
 ## Exemplo:
-- No exemplo citado tempo, o `AgenteReativoSimples` que interage com o `Ambiente`, caso a percepção do ambiente seja igual a sujo o agente irá aspirar senão ele nçao faz nada.
+- No exemplo citado tempo, o `AgenteReativoSimples` que interage com o `Ambiente`, caso a percepção do ambiente seja igual a sujo o agente irá aspirar senão ele não faz nada.
